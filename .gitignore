@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Environnements virtuels ---
+venv/
+.env/
+.env.bak/
+.venv/
+env/
+ENV/
+
+# --- IDE / éditeurs ---
+.vscode/
+.idea/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & fichiers temporaires ---
+*.log
+*.tmp
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
+
+# --- Autres caches ---
+*.egg-info/
+.cache/
+dist/
+build/
+
+# --- Données sensibles (ex: config locale) ---
+*.env
+config.json
