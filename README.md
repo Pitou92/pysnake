@@ -16,21 +16,18 @@ Conçu pour être modulaire, maintenable et facile à étendre.
 
 ## 📂 Structure du projet
 
-pysnake/
-├── snake/ # Code du jeu
-│ ├── init.py
-│ ├── game.py # Boucle principale du jeu
-│ ├── snake.py # Classe Snake
-│ ├── fruit.py # Classe Fruit
-│ └── settings.py # Constantes et configurations
-├── tests/ # Tests unitaires
-│ └── test_snake.py
-├── main.py # Point d'entrée du jeu
-├── requirements.txt # Dépendances Python
-└── README.md # Ce fichier
-
-yaml
-Copier le code
+pysnake/  
+├── snake/ # Code du jeu  
+│ ├── init.py  
+│ ├── game.py # Boucle principale du jeu  
+│ ├── snake.py # Classe Snake  
+│ ├── fruit.py # Classe Fruit  
+│ └── settings.py # Constantes et configurations  
+├── tests/ # Tests unitaires  
+│ └── test_snake.py  
+├── main.py # Point d'entrée du jeu  
+├── requirements.txt # Dépendances Python  
+└── README.md # Ce fichier  
 
 ---
 
@@ -40,30 +37,40 @@ Copier le code
 ```bash
 git clone <URL_DU_DEPOT>
 cd pysnake
+```
+
 Créer et activer un environnement virtuel :
 
-bash
-Copier le code
+```bash
 python -m venv venv
+```
+
 # Windows
+```bash
 .\venv\Scripts\activate
+```
 # macOS / Linux
+```bash
 source venv/bin/activate
+```
 Installer les dépendances :
 
-bash
-Copier le code
+```bash
 pip install -r requirements.txt
+```
 🏃 Lancer le jeu
-bash
-Copier le code
+
+```bash
 python main.py
+```
+
 🧪 Tests
 Pour lancer les tests unitaires :
 
-bash
-Copier le code
+```bash
 pytest
+```
+
 ⚙️ Personnalisation
 Les paramètres du jeu (taille de l’écran, vitesse, couleurs…) sont dans snake/settings.py.
 Modifiez-les pour ajuster le jeu à votre goût.
